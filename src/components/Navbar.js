@@ -5,10 +5,12 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import $ from 'jquery';
 
 class Navbar extends Component {
+    // jquery is loaded when component mounts...pay attention to .show in app.css
     componentDidMount() {
         $(document).ready(function(){
           $('.btn').click(function(){
             $('.nav_items').toggleClass("show");
+            // $('ul li').toggleClass("hide");
           });
         });
     }
