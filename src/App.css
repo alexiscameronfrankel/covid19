@@ -15,7 +15,7 @@ html, body {
 /* ---------NAVIGATION BAR STYLES--------- */
 nav {
   background: #e7e7e7;
-  padding: 5px 40px;
+  padding: 5px;
 }
 
 nav ul {
@@ -32,24 +32,86 @@ nav ul li {
 }
 
 nav ul li.nav_items {
+  position: relative;
   width: auto;
   margin: 0 16px; 
   text-align: center; 
+  order:3;
+}
+
+nav ul li.nav_items:after {
+  position:absolute;
+  content: '';
+  left: 0;
+  bottom: 5px;
+  height:2px;
+  width: 100%;
+  background: #000;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+nav ul li.nav_items:hover:after{
+  opacity: 1;
+  /* BOTTOM here it is bringing that underline on hover farther to those li elements...then closer with the bottom under the selector above*/
+  bottom: 8px;
 }
 
 nav ul li.logo {
   flex: 1;
   color: black;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: 600;
   cursor: default;
   /* USER-SELECT In web browsers, if you double-click on some text it will be selected/highlighted. This property can be used to prevent this. */
   user-select: none;
+  /* text-align: start; */
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
+  transition: .4s;
 }
 
+nav ul li:hover a{
+  color: cyan;
+}
+
+nav ul li i{
+  font-size: 40px;
+}
+
+nav ul li.btn {
+  display: none;
+}
+
+nav ul li.btn.show:before {
+  display: none;
+  content: '\f00d';
+}
+
+@media all and (max-width: 900px){
+  nav{
+    padding: 5px 30px; 
+  }
+  nav ul li.nav_items{
+    width:100%;
+    display: none;
+  }
+  nav ul li.nav_items.show{
+    display:block;
+  }
+  nav ul li.btn {
+    display: block;
+  }
+  nav ul li.nav_items:hover{
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #33ffff, 
+                inset 0 0 10px #66ffff;
+  }
+  nav ul li.nav_items:hover:after{
+    opacity: 0;
+  }
+}

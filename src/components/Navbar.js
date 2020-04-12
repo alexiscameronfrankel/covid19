@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import $ from 'jquery';
 
 class Navbar extends Component {
+    componentDidMount() {
+        $(document).ready(function(){
+          $('.btn').click(function(){
+            $('.nav_items').toggleClass("show");
+          });
+        });
+    }
     render() {
         return (
             <nav> 
@@ -12,6 +22,7 @@ class Navbar extends Component {
                     <li className="nav_items"><Link to="#data">Data</Link></li>
                     <li className="nav_items"><Link to="#faq">FAQ</Link> </li>
                     <li className="nav_items"><Link to="#additional">Additional Resources</Link> </li>
+                    <li className="btn"><i><FontAwesomeIcon icon={ faBars }/></i></li>
                  </ul>
             </nav> 
         );
