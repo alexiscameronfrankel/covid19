@@ -16,6 +16,7 @@ class Navbar extends Component {
     }
     render() {
         return (
+        
             <nav> 
             {/* ul start in nav  */}
                 <ul>
@@ -27,6 +28,7 @@ class Navbar extends Component {
                     <li className="btn"><i><FontAwesomeIcon icon={ faBars }/></i></li>
                  </ul>
             </nav> 
+           
         );
     }
 }
