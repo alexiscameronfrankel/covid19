@@ -10,10 +10,14 @@ class Navbar extends Component {
         $(document).ready(function(){
           $('.btn').click(function(){
             $('.nav_items').toggleClass("show");
-            // $('ul li').toggleClass("hide");
+          });
+          $('.nav_items').click(function(){
+            $('.nav_items').toggleClass("show");
           });
         });
     }
+
+    
     render() {
         return (
         

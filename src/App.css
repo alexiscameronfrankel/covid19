@@ -105,6 +105,12 @@ nav ul li.btn {
   nav ul li.nav_items.show{
     display:block;
   }
+  nav ul li.nav_items.hide{
+    display:none;
+  }
+  nav ul li.nav_items.showYourself{
+    display:block;
+  }
   nav ul li.btn {
     display: block;
     order:1;
