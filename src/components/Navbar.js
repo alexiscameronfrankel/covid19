@@ -11,12 +11,14 @@ class Navbar extends Component {
           $('.btn').click(function(){
             $('.nav_items').toggleClass("show");
           });
-          $('.nav_items').click(function(){
+          $('.routeChange').click(function(){
+            console.log('button is being pressed and should change route')
             $('.nav_items').toggleClass("show");
           });
         });
     }
 
+    changeRoute
     
     render() {
         return (
@@ -25,10 +27,10 @@ class Navbar extends Component {
             {/* ul start in nav  */}
                 <ul>
                     <li className="logo">Covid-19, Simplified</li> 
-                    <li className="nav_items"><Link to="#about">About</Link></li>
-                    <li className="nav_items"><Link to="#data">Data</Link></li>
-                    <li className="nav_items"><Link to="#faq">FAQ</Link> </li>
-                    <li className="nav_items"><Link to="#additional">Additional Resources</Link> </li>
+                    <li className="nav_items"><Link to="#about" className="routeChange">About</Link></li>
+                    <li className="nav_items"><Link to="#data" className="routeChange">Data</Link></li>
+                    <li className="nav_items"><Link to="#faq" className="routeChange">FAQ</Link> </li>
+                    <li className="nav_items"><Link to="#additional" className="routeChange">Additional Resources</Link> </li>
                     <li className="btn"><i><FontAwesomeIcon icon={ faBars }/></i></li>
                  </ul>
             </nav> 

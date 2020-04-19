@@ -6,6 +6,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
   /* BORDER-BOX: tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements. */
   box-sizing: border-box;
+  cursor:crosshair;
 }
 
 
@@ -33,7 +34,6 @@ nav ul {
 
 nav ul li {
   padding:15px 0;
-  cursor: pointer; 
 }
 
 nav ul li.nav_items {
@@ -68,7 +68,6 @@ nav ul li.logo {
   color: black;
   font-size: 23px;
   font-weight: 600;
-  cursor: default;
   /* USER-SELECT In web browsers, if you double-click on some text it will be selected/highlighted. This property can be used to prevent this...CONSIDER CHANGING THIS */
   user-select: none;
   /* text-align: start; */
@@ -105,12 +104,15 @@ nav ul li.btn {
   nav ul li.nav_items.show{
     display:block;
   }
+  nav ul li a.routeChange.show{  
+    display:block;
+  }
   nav ul li.nav_items.hide{
     display:none;
   }
-  nav ul li.nav_items.showYourself{
+  /* nav ul li.nav_items.showYourself{
     display:block;
-  }
+  } */
   nav ul li.btn {
     display: block;
     order:1;
