@@ -14,11 +14,10 @@ html, body {
 nav {
   background: white;
   padding: 5px;
-  /* DEBUG THIS LATER WHEN YOU GET THE CHANCE....GETS COVERED BY THE BACKGROUND IMAGE BY START SECTION*/
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-   box-shadow: 0 10px 6px -6px #777;
-  /* border-bottom: 2px solid rgb(0,0,0, 0.3); */
+  /* this box shadow lets the shadow go all the way across the bottom of the nav bar */
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+   box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
   position: fixed;
   width:100%;
 }
@@ -101,6 +100,7 @@ nav ul li.btn {
     width:100%;
     display: none;
   }
+  /* NOTICE THAT SHOW IS A CLASS THAT YOU ARE INSERTING INTO THE JQUERY IN NAVBAR.JS */
   nav ul li.nav_items.show{
     display:block;
   }
@@ -110,9 +110,6 @@ nav ul li.btn {
   nav ul li.nav_items.hide{
     display:none;
   }
-  /* nav ul li.nav_items.showYourself{
-    display:block;
-  } */
   nav ul li.btn {
     display: block;
     order:1;
