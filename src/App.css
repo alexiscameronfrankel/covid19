@@ -159,6 +159,13 @@ nav ul li.btn {
 
 }
 
+@media all and (max-width: 990px){
+
+  #start{
+  background-image:none;
+  }
+}
+
 /*-- second section start --*/ 
 
 #about_home{
