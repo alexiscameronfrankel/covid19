@@ -182,7 +182,7 @@ nav ul li.btn {
 
 #about_home article{
   padding: 0px 60px;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 #about_home_btn{
@@ -192,5 +192,10 @@ nav ul li.btn {
   font-size: 25px;
   border-radius: 20px;
   margin: 30px;
+  padding: 10px 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
 
 }
