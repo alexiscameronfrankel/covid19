@@ -15,6 +15,7 @@ class Home extends Component {
                  </article>
               </section>
               <section id="about_home"> 
+                <div>
                 <h1>About the Social Support Platform</h1>
                 <article>
                     There are thousands of resources created to address COVID-19 all over the world. We hope not to contribute to ever growing list of tools, trackers, and never ending feeds. Instead, we want to help you navigate all of those resources and help you connect with people along the way. 
@@ -24,6 +25,7 @@ class Home extends Component {
                     <b>Covid-19, Simplified</b> was created by a group of public health professionals with expertise in health behaviors, peer and social support, and community development. The contents of this resource are grounded in research and best practices.
                 </article>
                 <button id="about_home_btn" type="button">Read more about the evidence</button>
+               </div>
               </section>
             </>
         );
