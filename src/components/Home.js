@@ -27,6 +27,24 @@ class Home extends Component {
                 <button id="about_home_btn" type="button">Read more about the evidence</button>
                </div>
               </section>
+              <section id="how_to">
+                <h1>How to use this page</h1>
+                    <article>
+                    <div>
+                    <p>If you don’t know where to begin, let’s figure out how we can help. Start here.</p>
+                    <p>If you already know what you need, directly explore how you could:</p>
+                    <ol>
+                        <li>Address isolation</li>
+                        <li>Help your community</li>
+                        <li>Keep track near where you live</li>
+                        <li>Find support post-infection</li>
+                        <li>Find support while you grieve</li>
+                    </ol>
+                    </div>
+                    <img src="./3rdsection.png" alt="3rd section picture of a girl doing yoga" id="yogagirl" />
+                  
+                </article>
+              </section>
             </>
         );
     }

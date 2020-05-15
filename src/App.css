@@ -161,8 +161,15 @@ nav ul li.btn {
 
 @media all and (max-width: 990px){
 
+  #start article{
+    font-size: 18px;
+  }
   #start{
-  background-image:none;
+    background-image:none;
+    font-size: 10%;
+  }
+  #start_btn{
+    font-size: 15px;
   }
 }
 
@@ -200,20 +207,65 @@ nav ul li.btn {
   justify-content: center;
   float:right;
   margin-right: 60px;
-  
 
 }
 
 @media all and (max-width: 990px){
 
   #about_home article{
-  font-size:17px;
+    font-size:13px;
   }
   #about_home h1{
-    font-size: 20px;
-   
-  }
-  #about_home_btn{
     font-size: 17px;
   }
+  #about_home_btn{
+    font-size: 13px;
+  }
 }
+
+/*-------------------------------------SECTION 3 START------------------------------*/
+
+#how_to{
+  height:1000px;
+}
+
+#how_to h1{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#yogagirl {
+  width: 42%;
+  height:42%;
+  margin-right: -30px;
+}
+
+ #how_to article{
+  display: flex;
+  justify-content: space-between;
+}
+
+#how_to div {
+  font-size: 30px;
+  margin: 20px;
+  padding:10px 60px;
+}
+
+/* .container {
+  margin: 0 auto;
+}
+
+#how_to .container {
+  display: flex;
+
+}
+
+.content article{
+  width:50%;
+  margin: 0;
+}  */
+
+
+
+  
