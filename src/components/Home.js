@@ -41,9 +41,13 @@ class Home extends Component {
                         <li>Find support while you grieve</li>
                     </ol>
                     </div>
-                    <img src="./3rdsection.png" alt="3rd section picture of a girl doing yoga" id="yogagirl" />
-                  
+                    <img src="./3rdsection.png" alt="cartoon girl doing yoga" id="yogagirl" />
                 </article>
+              </section>
+              <section className="square">
+                <div><p>hi</p></div>
+                <div><p>hi</p></div>
+                <div><p>hi</p></div>
               </section>
             </>
         );

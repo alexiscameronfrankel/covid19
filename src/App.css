@@ -252,20 +252,23 @@ nav ul li.btn {
   padding:10px 60px;
 }
 
-/* .container {
-  margin: 0 auto;
+.square{
+  height: 100px;
+  width: 100px;
+  background-color: #efefef;
+  display: flex; 
+  justify-content: space-evenly;
 }
 
-#how_to .container {
+.square div{
   display: flex;
-
+  flex-direction: column;
 }
 
-.content article{
-  width:50%;
-  margin: 0;
-}  */
+@media all and (max-width: 990px){
 
+
+}
 
 
   
