@@ -253,8 +253,8 @@ nav ul li.btn {
 }
 
 .square{
-  height: 100px;
-  width: 100px;
+  height: 400px;
+  width: 400px;
   background-color: #efefef;
   display: flex; 
   justify-content: space-evenly;

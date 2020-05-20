@@ -45,7 +45,7 @@ class Home extends Component {
                 </article>
               </section>
               <section className="square">
-                <div><p>hi</p></div>
+              <div><p>hi</p></div>
                 <div><p>hi</p></div>
                 <div><p>hi</p></div>
               </section>
