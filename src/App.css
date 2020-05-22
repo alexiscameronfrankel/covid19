@@ -226,7 +226,7 @@ nav ul li.btn {
 /*-------------------------------------SECTION 3 START------------------------------*/
 
 #how_to{
-  height:1000px;
+  height:670px;
 }
 
 #how_to h1{
@@ -241,7 +241,7 @@ nav ul li.btn {
   margin-right: -30px;
 }
 
- #how_to article{
+#how_to article{
   display: flex;
   justify-content: space-between;
 }
@@ -253,16 +253,15 @@ nav ul li.btn {
 }
 
 .square{
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   background-color: #efefef;
-  display: flex; 
-  justify-content: space-evenly;
+  margin: 10px;
 }
 
-.square div{
+#resources{
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 @media all and (max-width: 990px){

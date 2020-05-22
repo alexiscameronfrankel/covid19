@@ -44,10 +44,11 @@ class Home extends Component {
                     <img src="./3rdsection.png" alt="cartoon girl doing yoga" id="yogagirl" />
                 </article>
               </section>
-              <section className="square">
-              <div><p>hi</p></div>
-                <div><p>hi</p></div>
-                <div><p>hi</p></div>
+              <section id="resources">
+                <div className="square"></div>
+                <div className="square"></div>
+                <div className="square"></div>
+               
               </section>
             </>
         );
