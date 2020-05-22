@@ -163,7 +163,7 @@ nav ul li.btn {
 
   #start article{
     font-size: 18px;
-    margin-top: 100px;
+    margin-top: 70px;
   }
   #start{
     background-image:none;
@@ -214,10 +214,10 @@ nav ul li.btn {
 @media all and (max-width: 990px){
 
   #about_home article{
-    font-size:16px;
+    font-size:14px;
   }
   #about_home h1{
-    font-size: 19px;
+    font-size: 17px;
   }
   #about_home_btn{
     font-size: 13px;
@@ -275,8 +275,21 @@ nav ul li.btn {
 @media all and (max-width: 990px){
 
   #how_to{
-    height:500px;
+    height:300px;
   }
+
+  #how_to h1{
+    font-size: 19px;
+  }
+
+  #how_to article{
+    display:block;
+  }
+
+  #how_to div{
+    padding: 10px 20px;
+  }
+
 
   #resources{
     display: flex;
@@ -285,7 +298,7 @@ nav ul li.btn {
   }
 
   #how_to div {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   #yogagirl {
