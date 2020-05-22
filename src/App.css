@@ -131,11 +131,11 @@ nav ul li.btn {
 /*--------START SECTION STYLES IN HOME.JS--------------*/
 
 #start {
-  padding-top: 30px;
+  padding-top: 35px;
   height: 75vh; 
   background-image:url('/./startpic.png');
   background-color:white;
-  background-size: 50%;
+  background-size: 60%;
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -163,6 +163,7 @@ nav ul li.btn {
 
   #start article{
     font-size: 18px;
+    margin-top: 100px;
   }
   #start{
     background-image:none;
@@ -213,17 +214,17 @@ nav ul li.btn {
 @media all and (max-width: 990px){
 
   #about_home article{
-    font-size:13px;
+    font-size:16px;
   }
   #about_home h1{
-    font-size: 17px;
+    font-size: 19px;
   }
   #about_home_btn{
     font-size: 13px;
   }
 }
 
-/*-------------------------------------SECTION 3 START------------------------------*/
+/*-------------------------------------SECTION 3 + 4 START------------------------------*/
 
 #how_to{
   height:670px;
@@ -239,6 +240,7 @@ nav ul li.btn {
   width: 42%;
   height:42%;
   margin-right: -30px;
+  margin-top: -34px;
 }
 
 #how_to article{
@@ -252,6 +254,12 @@ nav ul li.btn {
   padding:10px 60px;
 }
 
+.how_to_links a{
+  color:cornflowerblue;
+  text-decoration: underline;
+  font-weight: 900;
+}
+/*-- square and resources are for those resource blocks-*/
 .square{
   height: 350px;
   width: 350px;
@@ -266,8 +274,34 @@ nav ul li.btn {
 
 @media all and (max-width: 990px){
 
+  #how_to{
+    height:500px;
+  }
 
+  #resources{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #how_to div {
+    font-size: 20px;
+  }
+
+  #yogagirl {
+    display: none;
+  }
 }
 
-
+/*---------------------------------------------------- SECTION 5 START -----------------------------------------*/
   
+#footer{
+  height:100px;
+  background-color:white;
+  border-top: black 1px solid;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+

@@ -31,14 +31,14 @@ class Home extends Component {
                 <h1>How to use this page</h1>
                     <article>
                     <div>
-                    <p>If you don’t know where to begin, let’s figure out how we can help. Start here.</p>
+                    <p><strong>If you don’t know where to begin, let’s figure out how we can help. </strong><span className="how_to_links"><a href="#">Start here</a></span>.</p>
                     <p>If you already know what you need, directly explore how you could:</p>
                     <ol>
-                        <li>Address isolation</li>
-                        <li>Help your community</li>
-                        <li>Keep track near where you live</li>
-                        <li>Find support post-infection</li>
-                        <li>Find support while you grieve</li>
+                        <li>Address <span className="how_to_links"><a href="#">isolation</a></span></li>
+                        <li><span className="how_to_links"><a href="#">Help</a></span> your community</li>
+                        <li><span className="how_to_links"><a href="#">Keep track</a></span> near where you live</li>
+                        <li><span className="how_to_links"><a href="#">Find support</a></span> post-infection</li>
+                        <li>Find support <span className="how_to_links"><a href="#"> while you grieve</a></span></li>
                     </ol>
                     </div>
                     <img src="./3rdsection.png" alt="cartoon girl doing yoga" id="yogagirl" />
@@ -48,7 +48,6 @@ class Home extends Component {
                 <div className="square"></div>
                 <div className="square"></div>
                 <div className="square"></div>
-               
               </section>
             </>
         );
